@@ -90,7 +90,7 @@
 	(footprint "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
 		(layer "F.Cu")
 		(uuid "0a5f218c-2062-4c13-9c34-aad126cfe24e")
-		(at 188.85 65.7)
+		(at 210.35 64.4)
 		(descr "Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf)")
 		(tags "Sensirion QFN NoLead")
 		(property "Reference" "U2"
@@ -700,7 +700,7 @@
 	(footprint "Propia:IC_BME688"
 		(layer "F.Cu")
 		(uuid "25bab344-8031-4ffd-98fb-eb5d48d9c3ea")
-		(at 208.275 61.0835)
+		(at 220.2 64.7)
 		(property "Reference" "U3"
 			(at 0.2 -2.4 0)
 			(layer "F.SilkS")
@@ -1130,7 +1130,7 @@
 	(footprint "Propia:TO255P920H830-4"
 		(layer "F.Cu")
 		(uuid "7a09e0dd-a618-43f3-ac6a-f42faa9959e6")
-		(at 191.7 88.675)
+		(at 197.6 64.25)
 		(property "Reference" "A1"
 			(at -0.635 -5.715 0)
 			(layer "F.SilkS")
@@ -1505,7 +1505,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(A1-SENSOR_ELECTRODE--Pad2)")
+			(net "Net-(A1-SENSOR_ELECTRODE-)")
 			(pinfunction "SENSOR_ELECTRODE-_2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -2553,7 +2553,7 @@
 			(at -8.75 -3.99)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(UESP32-S3-WROOM-1-3V3-Pad2)")
+			(net "3.3V")
 			(pinfunction "3V3_2")
 			(pintype "power_in")
 			(uuid "28b3e5e5-8e06-48ed-b0cd-619e80219ff8")
