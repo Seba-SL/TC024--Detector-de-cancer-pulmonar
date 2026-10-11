@@ -661,7 +661,7 @@
         "uuid": "ed4685a9-7d3e-4655-933e-ea7c72bad2fe"
       }
     ],
-    "used_designators": "RL101,J1,R1,A1,#PWR1-3,U1-3",
+    "used_designators": "SW_Boot101,U1-3,U101-102,Q101-102,#PWR1-3,#PWR101-110,RL_TG101,A1,C101-102,R1,R101-108,SW_RST101-102,J1,RL101,REG_AMS101-102,SW101,P101",
     "variants": []
   },
   "sheets": [
